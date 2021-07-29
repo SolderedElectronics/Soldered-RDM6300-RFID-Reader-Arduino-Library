@@ -15,7 +15,12 @@
 #include "Arduino.h"
 
 #include "libs/rdm6300/src/rdm6300.h"
+
+#ifdef __AVR__
 #include <SoftwareSerial.h>
+#else
+#include "libs/espsoftwareserial/src/SoftwareSerial.h"
+#endif
 
 class RDM6300 : public Rdm6300
 {
