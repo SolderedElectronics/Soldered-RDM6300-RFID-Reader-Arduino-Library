@@ -5,7 +5,7 @@
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [RDM6300 RFID Reader](https://www.solde.red/[_sku]])                                                            |
+| [RDM6300 RFID Reader](https://www.solde.red/101835])                                                            |
 
 RDM6300 RFID Reader Library compatible with 125kHz RFID cards.
 
