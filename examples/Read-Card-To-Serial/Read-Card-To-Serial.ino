@@ -10,7 +10,7 @@
  *
  * Arad Eizen (https://github.com/arduino12).
  *
- * Modified by: soldered.com for use with https://solde.red/[_sku]
+ * Modified by: soldered.com for use with https://solde.red/101835
  */
 
 #include "RDM6300-SOLDERED.h"
