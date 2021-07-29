@@ -24,9 +24,14 @@
 */
 var NAVTREE =
 [
-  [ "16x2 easyC LCD Library", "index.html", [
-    [ "NAZIV PROIZVODA Arduino library", "index.html", null ],
+  [ "RDM6300 RFID Reader Arduino Library", "index.html", [
     [ "Classes", "annotated.html", [
+      [ "Repository Contents", "index.html#autotoc_md1", null ],
+      [ "Hardware design", "index.html#autotoc_md2", null ],
+      [ "Documentation", "index.html#autotoc_md3", null ],
+      [ "About Soldered", "index.html#autotoc_md4", null ],
+      [ "Original source", "index.html#autotoc_md5", null ],
+      [ "Open-source license", "index.html#autotoc_md6", null ],
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
@@ -44,7 +49,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_generic-easy_c-_s_o_l_d_e_r_e_d_8cpp.html"
+"_r_d_m6300-_s_o_l_d_e_r_e_d_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
