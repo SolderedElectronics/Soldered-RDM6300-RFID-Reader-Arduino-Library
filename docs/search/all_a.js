@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['readme_2emd_31',['README.md',['../src_2libs_2rdm6300_2_r_e_a_d_m_e_8md.html',1,'']]],
-  ['sendaddress_32',['sendAddress',['../class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3',1,'EasyC']]],
-  ['senddata_33',['sendData',['../class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195',1,'EasyC']]],
-  ['ss_34',['ss',['../class_r_d_m6300.html#a5b6fff262352be193733605df1b5d26b',1,'RDM6300']]]
+  ['last_80',['last',['../classdelegate_1_1detail_1_1_multi_delegate_p_impl.html#a52286b8915d7936483822b0495ebd37f',1,'delegate::detail::MultiDelegatePImpl']]],
+  ['license_81',['LICENSE',['../md_src_libs_rdm6300__l_i_c_e_n_s_e.html',1,'']]],
+  ['license_2emd_82',['LICENSE.md',['../_l_i_c_e_n_s_e_8md.html',1,'']]],
+  ['load_83',['load',['../classstd_1_1atomic.html#a739d3a97c7689e2541d57dd4b5c2d900',1,'std::atomic']]]
 ];

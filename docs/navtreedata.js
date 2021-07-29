@@ -26,31 +26,52 @@ var NAVTREE =
 [
   [ "RDM6300 RFID Reader Arduino Library", "index.html", [
     [ "LICENSE", "md_src_libs_rdm6300__l_i_c_e_n_s_e.html", null ],
-    [ "Classes", "annotated.html", [
+    [ "Namespaces", "namespaces.html", [
       [ "Repository Contents", "index.html#autotoc_md1", null ],
       [ "Hardware design", "index.html#autotoc_md2", null ],
       [ "Documentation", "index.html#autotoc_md3", null ],
       [ "About Soldered", "index.html#autotoc_md4", null ],
       [ "Original source", "index.html#autotoc_md5", null ],
       [ "Open-source license", "index.html#autotoc_md6", null ],
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Typedefs", "namespacemembers_type.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
+      ] ]
+    ] ],
+    [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", null ],
+        [ "Typedefs", "functions_type.html", null ],
+        [ "Enumerator", "functions_eval.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_r_d_m6300-_s_o_l_d_e_r_e_d_8cpp.html"
+"_delegate_8h.html",
+"classdelegate_1_1detail_1_1_delegate_3_01void_00_01_r_00_01_p_8_8_8_01_4.html#a3016e6d28c3e8408f9edeb1dfdf6aa3e",
+"classdelegate_1_1detail_1_1_multi_delegate_p_impl.html#ae348056e8bf6c5109d5f382bd90040f2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

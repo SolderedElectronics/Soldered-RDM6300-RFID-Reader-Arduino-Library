@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['defaultaddress_68',['defaultAddress',['../class_easy_c.html#a9052ae674b3553bbb19283278299f395',1,'EasyC']]]
+  ['current_364',['current',['../classdelegate_1_1detail_1_1_multi_delegate_p_impl_1_1iterator.html#a5bb518457ed386731bd6a1c397030a5f',1,'delegate::detail::MultiDelegatePImpl::iterator']]]
 ];

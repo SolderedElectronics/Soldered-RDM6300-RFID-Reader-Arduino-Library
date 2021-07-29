@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['rdm6300_54',['RDM6300',['../class_r_d_m6300.html#ad2c5a206e34ffcece2776c7d1fba7e46',1,'RDM6300']]],
-  ['readdata_55',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readregister_56',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]]
+  ['easyc_300',['EasyC',['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC']]],
+  ['end_301',['end',['../classdelegate_1_1detail_1_1_multi_delegate_p_impl.html#a059bca4e062a170d69ed0ed265b90aa3',1,'delegate::detail::MultiDelegatePImpl::end()'],['../class_rdm6300.html#a26f2a4b5d235450bbd0f6dd408d3cf2d',1,'Rdm6300::end()']]],
+  ['erase_302',['erase',['../classdelegate_1_1detail_1_1_multi_delegate_p_impl.html#ab1d9378d9fc8c4a0e16cf512640613cf',1,'delegate::detail::MultiDelegatePImpl::erase(iterator it)'],['../classdelegate_1_1detail_1_1_multi_delegate_p_impl.html#a7e4adb2ae87c41b872e992f27fe54b76',1,'delegate::detail::MultiDelegatePImpl::erase(const Delegate *const del)']]]
 ];
