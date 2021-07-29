@@ -27,7 +27,7 @@ class RDM6300 : public Rdm6300
   public:
     RDM6300(int rx_pin = 8) : Rdm6300()
     {
-        ss = new SoftwareSerial(rx_pin, 2);
+        ss = new SoftwareSerial(rx_pin, -1);
     }
 
     void begin()
