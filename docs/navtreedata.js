@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "RDM6300 RFID Reader Arduino Library", "index.html", [
+    [ "LICENSE", "md_src_libs_rdm6300__l_i_c_e_n_s_e.html", null ],
     [ "Classes", "annotated.html", [
       [ "Repository Contents", "index.html#autotoc_md1", null ],
       [ "Hardware design", "index.html#autotoc_md2", null ],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['rdm6300_30',['RDM6300',['../class_r_d_m6300.html#ad2c5a206e34ffcece2776c7d1fba7e46',1,'RDM6300']]],
-  ['readdata_31',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readregister_32',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]]
+  ['initializenative_52',['initializeNative',['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC']]],
+  ['is_5ftag_5fnear_53',['is_tag_near',['../class_rdm6300.html#a0b068282d8810fd36c0b605d2be8dc15',1,'Rdm6300']]]
 ];

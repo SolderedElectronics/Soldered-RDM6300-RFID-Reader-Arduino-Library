@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initializenative_29',['initializeNative',['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC']]]
+  ['get_5ftag_5fid_51',['get_tag_id',['../class_rdm6300.html#a5a164882d014911900ae009ce8ba4071',1,'Rdm6300']]]
 ];

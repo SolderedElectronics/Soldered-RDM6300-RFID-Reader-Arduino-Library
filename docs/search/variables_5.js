@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ss_40',['ss',['../class_r_d_m6300.html#a5b6fff262352be193733605df1b5d26b',1,'RDM6300']]]
+  ['native_70',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]]
 ];
