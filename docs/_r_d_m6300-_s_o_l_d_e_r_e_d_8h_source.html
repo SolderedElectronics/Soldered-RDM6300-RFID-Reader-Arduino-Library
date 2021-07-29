@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('_r_d_m6300-_s_o_l_d_e_r_e_d_8h_source.
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_r_d_m6300.html#ad2c5a206e34ffcece2776c7d1fba7e46">   28</a></span>&#160;    <a class="code" href="class_r_d_m6300.html#ad2c5a206e34ffcece2776c7d1fba7e46">RDM6300</a>(<span class="keywordtype">int</span> rx_pin = 8) : <a class="code" href="class_rdm6300.html">Rdm6300</a>()</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="class_r_d_m6300.html#a5b6fff262352be193733605df1b5d26b">ss</a> = <span class="keyword">new</span> SoftwareSerial(rx_pin, -1);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="class_r_d_m6300.html#a5b6fff262352be193733605df1b5d26b">ss</a> = <span class="keyword">new</span> SoftwareSerial(rx_pin, 2);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_r_d_m6300.html#af4dcec931b9a878da179325793f06275">   33</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_r_d_m6300.html#af4dcec931b9a878da179325793f06275">begin</a>()</div>
@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('_r_d_m6300-_s_o_l_d_e_r_e_d_8h_source.
     <ul>
         <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="_r_d_m6300-_s_o_l_d_e_r_e_d_8h.html">RDM6300-SOLDERED.h</a></li>
         <li class="footer">
-            Generated on Thu Jul 29 2021 09:20:09 for RDM6300 RFID Reader Arduino Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Thu Jul 29 2021 09:23:45 for RDM6300 RFID Reader Arduino Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.1.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
