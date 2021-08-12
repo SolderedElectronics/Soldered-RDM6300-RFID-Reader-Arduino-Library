@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['rdm6300_264',['RDM6300',['../class_r_d_m6300.html',1,'']]],
-  ['rdm6300_265',['Rdm6300',['../class_rdm6300.html',1,'']]]
+  ['unique_5fptr_252',['unique_ptr',['../classstd_1_1unique__ptr.html',1,'std']]],
+  ['unique_5fptr_3c_20t_5b_5d_3e_253',['unique_ptr&lt; T[]&gt;',['../classstd_1_1unique__ptr.html',1,'std']]]
 ];

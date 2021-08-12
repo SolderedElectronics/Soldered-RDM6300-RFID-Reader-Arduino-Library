@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['begindone_362',['beginDone',['../class_easy_c.html#a2f55de657a84e73edda23dae91d30436',1,'EasyC']]],
-  ['byte_5fall_5fbits_5fset_363',['BYTE_ALL_BITS_SET',['../_software_serial_8cpp.html#a598154fbc2ca9d498197580a562d42a0',1,'SoftwareSerial.cpp']]]
+  ['current_340',['current',['../classdelegate_1_1detail_1_1_multi_delegate_p_impl_1_1iterator.html#a5bb518457ed386731bd6a1c397030a5f',1,'delegate::detail::MultiDelegatePImpl::iterator']]]
 ];

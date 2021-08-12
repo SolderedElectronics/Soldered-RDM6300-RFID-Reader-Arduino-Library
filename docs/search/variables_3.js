@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['current_364',['current',['../classdelegate_1_1detail_1_1_multi_delegate_p_impl_1_1iterator.html#a5bb518457ed386731bd6a1c397030a5f',1,'delegate::detail::MultiDelegatePImpl::iterator']]]
+  ['defaultvalue_341',['defaultValue',['../classcircular__queue.html#a57960e33ab2087003c4112528f83d2e4',1,'circular_queue']]]
 ];
