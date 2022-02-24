@@ -1,17 +1,24 @@
-/*
- * A simple example to interface with rdm6300 rfid reader.
+/**
+ **************************************************
  *
- * Connect the rdm6300 to VCC=5V, GND=GND, TX=any GPIO (this case GPIO-04)
- * Note that the rdm6300's TX line is 3.3V level,
- * so it's safe to use with both AVR* and ESP* microcontrollers.
+ * @file        Read-Card-To-Serial.ino
+ * @brief       A simple example to interface with rdm6300 rfid reader.
+ *
+ *              Connect the rdm6300 to VCC=5V, GND=GND, TX=any GPIO (this case GPIO-04)
+ *              Note that the rdm6300's TX line is 3.3V level,
+ *              so it's safe to use with both AVR* and ESP* microcontrollers.
  *
  * This example uses SoftwareSerial, please read its limitations here:
  * https://www.arduino.cc/en/Reference/softwareSerial
  *
- * Arad Eizen (https://github.com/arduino12).
+ * 
  *
- * Modified by: soldered.com for use with https://solde.red/101835
- */
+ * Modified by: soldered.com for use with https://solde.red/333154
+ *
+ *
+ *
+ * @authors     Arad Eizen (https://github.com/arduino12).
+ ***************************************************/
 
 #include "RDM6300-SOLDERED.h"
 
@@ -39,7 +46,7 @@ void loop()
 {
     /* if non-zero tag_id, update() returns true- a new tag is near! */
     if (rdm6300.update())
-        Serial.println(rdm6300.get_tag_id(), HEX);
+        Serial.println(rdm6300.get_tag_id(), HEX);  //Print ID of tag that is near
 
     // Turn led on if card is near
     digitalWrite(READ_LED_PIN, rdm6300.is_tag_near());
