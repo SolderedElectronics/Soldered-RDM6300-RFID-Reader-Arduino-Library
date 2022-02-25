@@ -22,8 +22,8 @@
 
 #include "RDM6300-SOLDERED.h"
 
-#define RDM6300_RX_PIN 8
-#define READ_LED_PIN   13
+#define RDM6300_RX_PIN 2
+#define READ_LED_PIN   3
 
 RDM6300 rdm6300(RDM6300_RX_PIN);
 
