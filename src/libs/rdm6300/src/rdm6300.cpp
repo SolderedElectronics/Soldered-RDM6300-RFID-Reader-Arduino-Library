@@ -22,13 +22,13 @@ void Rdm6300::begin(int rx_pin, uint8_t uart_nr)
 #if defined(ARDUINO_ESP32_DEV)
 	_stream = _hardware_serial = new HardwareSerial(uart_nr);
 	_hardware_serial->begin(RDM6300_BAUDRATE, SERIAL_8N1, rx_pin, -1);
-#elif defined(ARDUINO_ESP8266_GENERIC)
+/*#elif defined(ARDUINO_ESP8266_GENERIC)
 	if (rx_pin == 13) {
 		_stream = _hardware_serial = &Serial;
 		_hardware_serial->begin(RDM6300_BAUDRATE, SERIAL_8N1, SERIAL_RX_ONLY);
 		if (uart_nr)
 			_hardware_serial->swap();
-	}
+	}*/
 #endif
 #ifdef RDM6300_SOFTWARE_SERIAL
 	if (!_stream) {
