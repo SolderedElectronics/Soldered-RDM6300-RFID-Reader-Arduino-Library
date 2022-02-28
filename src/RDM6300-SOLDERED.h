@@ -35,7 +35,7 @@ class RDM6300 : public Rdm6300
     }
 
   private:
-    //SoftwareSerial *ss;
+    // SoftwareSerial *ss;
     int rx_pin, port;
 };
 
