@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['ss_0',['ss',['../class_r_d_m6300.html#a5b6fff262352be193733605df1b5d26b',1,'RDM6300']]],
-  ['stop_1',['stop',['../classdelegate_1_1detail_1_1_multi_delegate_p_impl_1_1iterator.html#aa30cad1f853f215bf2181fc77539a5ab',1,'delegate::detail::MultiDelegatePImpl::iterator']]]
+  ['rx_5fpin_0',['rx_pin',['../class_r_d_m6300.html#ace0b25d38035a665c4f3e47a5ae1117c',1,'RDM6300']]]
 ];

@@ -97,39 +97,36 @@ $(document).ready(function(){initNavTree('_r_d_m6300-_s_o_l_d_e_r_e_d_8h_source.
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="rdm6300_8h.html">libs/rdm6300/src/rdm6300.h</a>&quot;</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#ifdef __AVR__</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;<a class="code" href="_software_serial_8h.html">SoftwareSerial.h</a>&gt;</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &quot;<a class="code" href="_software_serial_8h.html">libs/espsoftwareserial/src/SoftwareSerial.h</a>&quot;</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_r_d_m6300.html">   25</a></span><span class="keyword">class </span><a class="code hl_class" href="class_r_d_m6300.html">RDM6300</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_rdm6300.html">Rdm6300</a></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>{</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="class_r_d_m6300.html#ad2c5a206e34ffcece2776c7d1fba7e46">   28</a></span>    <a class="code hl_function" href="class_r_d_m6300.html#ad2c5a206e34ffcece2776c7d1fba7e46">RDM6300</a>(<span class="keywordtype">int</span> rx_pin = 8) : <a class="code hl_class" href="class_rdm6300.html">Rdm6300</a>()</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    {</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <a class="code hl_variable" href="class_r_d_m6300.html#a5b6fff262352be193733605df1b5d26b">ss</a> = <span class="keyword">new</span> SoftwareSerial(rx_pin, -1);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_r_d_m6300.html#af4dcec931b9a878da179325793f06275">   33</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_r_d_m6300.html#af4dcec931b9a878da179325793f06275">begin</a>()</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    {</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_variable" href="class_r_d_m6300.html#a5b6fff262352be193733605df1b5d26b">ss</a>-&gt;begin(RDM6300_BAUDRATE);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <a class="code hl_function" href="class_rdm6300.html#a69b4213a7265d6e19046869dc41f7e46">Rdm6300::begin</a>(<a class="code hl_variable" href="class_r_d_m6300.html#a5b6fff262352be193733605df1b5d26b">ss</a>);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_r_d_m6300.html#a5b6fff262352be193733605df1b5d26b">   40</a></span>    SoftwareSerial *<a class="code hl_variable" href="class_r_d_m6300.html#a5b6fff262352be193733605df1b5d26b">ss</a>;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>};</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_r_d_m6300.html">   19</a></span><span class="keyword">class </span><a class="code hl_class" href="class_r_d_m6300.html">RDM6300</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_rdm6300.html">Rdm6300</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_r_d_m6300.html#a7297d6b9c4a2fe10f6f2150f0beb3349">   22</a></span>    <a class="code hl_function" href="class_r_d_m6300.html#a7297d6b9c4a2fe10f6f2150f0beb3349">RDM6300</a>(<span class="keywordtype">int</span> _rx_pin = 8, <span class="keywordtype">int</span> tx_pin = -1) : <a class="code hl_class" href="class_rdm6300.html">Rdm6300</a>()</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <a class="code hl_variable" href="class_r_d_m6300.html#ace0b25d38035a665c4f3e47a5ae1117c">rx_pin</a> = _rx_pin;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    }</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="comment">//RDM6300(int rx_pin = 8) : Rdm6300()</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="comment">//{</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">//    ss = new SoftwareSerial(rx_pin, -1);</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="comment">//}</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_r_d_m6300.html#af4dcec931b9a878da179325793f06275">   31</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_r_d_m6300.html#af4dcec931b9a878da179325793f06275">begin</a>()</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <a class="code hl_function" href="class_rdm6300.html#a69b4213a7265d6e19046869dc41f7e46">Rdm6300::begin</a>(<a class="code hl_variable" href="class_r_d_m6300.html#ace0b25d38035a665c4f3e47a5ae1117c">rx_pin</a>, 1);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    }</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="comment">//SoftwareSerial *ss;</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_r_d_m6300.html#ace0b25d38035a665c4f3e47a5ae1117c">   38</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="class_r_d_m6300.html#ace0b25d38035a665c4f3e47a5ae1117c">rx_pin</a>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>};</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#undef Rdm6300</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#undef Rdm6300</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="a_software_serial_8h_html"><div class="ttname"><a href="_software_serial_8h.html">SoftwareSerial.h</a></div></div>
-<div class="ttc" id="aclass_r_d_m6300_html"><div class="ttname"><a href="class_r_d_m6300.html">RDM6300</a></div><div class="ttdef"><b>Definition:</b> RDM6300-SOLDERED.h:26</div></div>
-<div class="ttc" id="aclass_r_d_m6300_html_a5b6fff262352be193733605df1b5d26b"><div class="ttname"><a href="class_r_d_m6300.html#a5b6fff262352be193733605df1b5d26b">RDM6300::ss</a></div><div class="ttdeci">SoftwareSerial * ss</div><div class="ttdef"><b>Definition:</b> RDM6300-SOLDERED.h:40</div></div>
-<div class="ttc" id="aclass_r_d_m6300_html_ad2c5a206e34ffcece2776c7d1fba7e46"><div class="ttname"><a href="class_r_d_m6300.html#ad2c5a206e34ffcece2776c7d1fba7e46">RDM6300::RDM6300</a></div><div class="ttdeci">RDM6300(int rx_pin=8)</div><div class="ttdef"><b>Definition:</b> RDM6300-SOLDERED.h:28</div></div>
-<div class="ttc" id="aclass_r_d_m6300_html_af4dcec931b9a878da179325793f06275"><div class="ttname"><a href="class_r_d_m6300.html#af4dcec931b9a878da179325793f06275">RDM6300::begin</a></div><div class="ttdeci">void begin()</div><div class="ttdef"><b>Definition:</b> RDM6300-SOLDERED.h:33</div></div>
-<div class="ttc" id="aclass_rdm6300_html"><div class="ttname"><a href="class_rdm6300.html">Rdm6300</a></div><div class="ttdef"><b>Definition:</b> rdm6300.h:35</div></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_r_d_m6300_html"><div class="ttname"><a href="class_r_d_m6300.html">RDM6300</a></div><div class="ttdef"><b>Definition:</b> RDM6300-SOLDERED.h:20</div></div>
+<div class="ttc" id="aclass_r_d_m6300_html_a7297d6b9c4a2fe10f6f2150f0beb3349"><div class="ttname"><a href="class_r_d_m6300.html#a7297d6b9c4a2fe10f6f2150f0beb3349">RDM6300::RDM6300</a></div><div class="ttdeci">RDM6300(int _rx_pin=8, int tx_pin=-1)</div><div class="ttdef"><b>Definition:</b> RDM6300-SOLDERED.h:22</div></div>
+<div class="ttc" id="aclass_r_d_m6300_html_ace0b25d38035a665c4f3e47a5ae1117c"><div class="ttname"><a href="class_r_d_m6300.html#ace0b25d38035a665c4f3e47a5ae1117c">RDM6300::rx_pin</a></div><div class="ttdeci">int rx_pin</div><div class="ttdef"><b>Definition:</b> RDM6300-SOLDERED.h:38</div></div>
+<div class="ttc" id="aclass_r_d_m6300_html_af4dcec931b9a878da179325793f06275"><div class="ttname"><a href="class_r_d_m6300.html#af4dcec931b9a878da179325793f06275">RDM6300::begin</a></div><div class="ttdeci">void begin()</div><div class="ttdef"><b>Definition:</b> RDM6300-SOLDERED.h:31</div></div>
+<div class="ttc" id="aclass_rdm6300_html"><div class="ttname"><a href="class_rdm6300.html">Rdm6300</a></div><div class="ttdef"><b>Definition:</b> rdm6300.h:33</div></div>
 <div class="ttc" id="aclass_rdm6300_html_a69b4213a7265d6e19046869dc41f7e46"><div class="ttname"><a href="class_rdm6300.html#a69b4213a7265d6e19046869dc41f7e46">Rdm6300::begin</a></div><div class="ttdeci">void begin(Stream *stream)</div><div class="ttdef"><b>Definition:</b> rdm6300.cpp:10</div></div>
 <div class="ttc" id="ardm6300_8h_html"><div class="ttname"><a href="rdm6300_8h.html">rdm6300.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -140,7 +137,7 @@ $(document).ready(function(){initNavTree('_r_d_m6300-_s_o_l_d_e_r_e_d_8h_source.
     <ul>
         <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="_r_d_m6300-_s_o_l_d_e_r_e_d_8h.html">RDM6300-SOLDERED.h</a></li>
         <li class="footer">
-            Generated on Fri Feb 25 2022 10:30:47 for RDM6300 RFID Reader Arduino Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Mon Feb 28 2022 10:18:27 for RDM6300 RFID Reader Arduino Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.3.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
