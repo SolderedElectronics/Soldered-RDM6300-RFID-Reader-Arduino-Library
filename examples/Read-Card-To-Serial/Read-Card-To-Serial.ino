@@ -22,10 +22,10 @@
 
 #include "RDM6300-SOLDERED.h"
 
-#define RDM6300_RX_PIN 2
-#define READ_LED_PIN   3
+#define RDM6300_RX_PIN 8  //Specify RX pin, TX can be any pin
+#define READ_LED_PIN   13 //Read LED pin
 
-RDM6300 rdm6300(RDM6300_RX_PIN);
+RDM6300 rdm6300(RDM6300_RX_PIN , 1);//Create object, pass to it arguments (RX pin, UART port if Harware UART is used)
 
 void setup()
 {
