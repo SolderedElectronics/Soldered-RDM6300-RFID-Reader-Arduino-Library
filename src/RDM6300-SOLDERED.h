@@ -24,7 +24,7 @@ class RDM6300 : public Rdm6300
         rx_pin = _rx_pin;
         port = _port;
     }
-    //RDM6300(int rx_pin = 8) : Rdm6300()
+    // RDM6300(int rx_pin = 8) : Rdm6300()
     //{
     //    ss = new SoftwareSerial(rx_pin, -1);
     //}
