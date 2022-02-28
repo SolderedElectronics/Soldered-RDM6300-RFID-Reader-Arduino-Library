@@ -19,10 +19,10 @@ void Rdm6300::begin(int rx_pin, uint8_t uart_nr)
 {
 	/* init serial port to rdm6300 baud, without TX, and 20ms read timeout */
 	end();
-#if defined(ARDUINO_ARCH_ESP32)
+#if defined(ARDUINO_ESP32_DEV)
 	_stream = _hardware_serial = new HardwareSerial(uart_nr);
 	_hardware_serial->begin(RDM6300_BAUDRATE, SERIAL_8N1, rx_pin, -1);
-#elif defined(ARDUINO_ARCH_ESP8266)
+#elif defined(ARDUINO_ESP8266_GENERIC)
 	if (rx_pin == 13) {
 		_stream = _hardware_serial = &Serial;
 		_hardware_serial->begin(RDM6300_BAUDRATE, SERIAL_8N1, SERIAL_RX_ONLY);

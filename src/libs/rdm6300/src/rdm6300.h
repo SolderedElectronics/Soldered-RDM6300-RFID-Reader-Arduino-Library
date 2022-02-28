@@ -7,11 +7,9 @@
 #ifndef _RDM6300_h_
 #define _RDM6300_h_
 
-#if defined(ARDUINO_ARCH_ESP32) || defined(ARDUINO_ARCH_ESP8266)
+#if defined(ARDUINO_ESP32_DEV)
 	#define RDM6300_HARDWARE_SERIAL
-#endif
-
-#if !defined(ARDUINO_ARCH_ESP32)
+#else 
 	#define RDM6300_SOFTWARE_SERIAL
 #endif
 
